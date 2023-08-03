@@ -26,6 +26,8 @@ function validarCPFDoInput() {
 // Função retorna TRUE caso o CPF seja válido
 // Função retorna FALSE caso o CPF seja inválido
 function validarCPF(cpf) {
+  // var cpf = cpf.replace(/[^\d]+/g,'')
+
   var numeros, digitos, soma, i, resultado, digitos_iguais;
   digitos_iguais = 1;
 
